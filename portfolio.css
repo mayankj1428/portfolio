@@ -1,0 +1,121 @@
+html{
+    scroll-behavior: smooth;
+}
+.heading{
+    font-family: 'Poppins', sans-serif;
+}
+.listitems{
+    font-family: 'Poppins', sans-serif;
+}
+.para1{
+    font-family: 'Roboto', sans-serif;
+}
+.name{
+    font-family: 'Poppins', sans-serif;
+}
+.greet{
+    font-family: 'Roboto', sans-serif;
+}
+.education{
+    font-family: 'Roboto', sans-serif;
+}
+.navicon{
+    margin-top: 2px;
+    color: #e57373;
+    
+}
+.profile{
+    height: 300px;
+    width: 300px;
+    border: 4px solid white ;
+}
+.connect{
+    margin: 14px 0px 0px 6px;
+    color: #f57f17;
+}
+.linkedin{
+    margin: 6px 0px 0px 20px;
+}
+.insta{
+    margin: 6px 0px 0px 20px;
+}
+i:hover{
+    color: #ff9800;
+}
+.bottomcontainer{
+    width: 100vw;
+}
+.bgimage{
+    position: absolute;
+    z-index: -1;
+    width: 100vw;
+
+}
+.bgimg{
+    height: 750px;
+    width: 100%;
+    opacity: 0.9;
+    background-blend-mode: overlay;
+}
+
+.hamburger{
+    display: none;
+    cursor: pointer;
+}
+.demo{
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    
+}
+@media screen and (max-width:767px) {
+    .bgimg{
+        height: 900px;
+        width: 100%;
+    }
+}
+@media screen and (max-width:800px) {
+    .navlist{
+        display: none;
+    }
+    .right{
+        display: none;
+    }
+
+    .hamburger{
+        display: block;   
+        position: absolute;
+        right: 14px;
+        top:20px
+    }
+}
+@media screen and (max-width:832px) {
+    .phonenumber{
+        padding-left: 0px;
+    }
+    .email{
+        padding-left: 0px;
+    }
+    .addresss{
+        padding-left: 0px;
+    }
+    .num{
+        text-align: center;
+    }
+    .mail{
+        text-align: center;
+    }
+    .address{
+        text-align: center;
+    }
+}
+@media screen and (max-width:768px) {
+    .line{
+        display: none;
+    }
+}
+@media screen and (max-width:537px) {
+    .git{
+        padding-right: 0px;
+    }
+}

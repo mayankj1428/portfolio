@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="./portfolio.css">     
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">     
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>     
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">     
+    <link rel="stylesheet" href="./landing2.css">     
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portfolio</title>
+</head>
+
+<body>
+  <!-- container including navbar and profile -->
+<div class="bigcontainer">
+  <div class="bgimage ">
+    <img src="https://e0.pxfuel.com/wallpapers/846/344/desktop-wallpaper-portfolio.jpg" alt="" class="bgimg">
+  </div>
+  <div class="container1 flex p-5 ">
+    <div class="left capitalize font-bold text-2xl heading text-transparent bg-clip-text bg-gradient-to-r from-orange-600   via-white to-green-600 transform hover:scale-105 transition ease-out duration-300 cursor-pointer hover:text-white w-1/4"> 
+      <a href="index.html"><img src="https://www.svgrepo.com/show/429905/portfolio-my-profile-browser.svg" alt="svg" class="h-12 inline-flex"></a>
+        portfolio
+    </div> 
+    <div class="hamburger">
+      <div class="hamlist">
+          <div class="line 1 w-10 border-2 border-white mb-2"></div>
+          <div class="line 2 w-10 border-2 border-white mt-2"></div>
+          <div class="line 3 w-10 border-2 border-white mt-2"></div>
+      </div>    
+    </div>
+    <div class="middle mt-4  w-1/2 flex justify-center ">
+        <ul class=" navlist flex text-white">
+            <i class="fa-solid fa-house navicon"></i>
+            <a href="index.html">
+              <li class="pl-2 pr-10 listitems hover:underline hover:text-blue-500 transform hover:scale-110 transition ease-out duration-300 cursor-pointer">Home</li>
+            </a>
+            <i class="fa-solid fa-user navicon"></i>
+            <a href="#about">
+              <li class="pl-2 pr-10 listitems hover:underline hover:text-blue-500 transform hover:scale-110 transition ease-out duration-300 cursor-pointer">About</li>
+            </a>
+            <i class="fa-solid fa-phone navicon"></i>
+            <a href="#contact">
+              <li class="pl-2 pr-10 listitems hover:underline hover:text-blue-500 transform hover:scale-110 transition ease-out duration-300 cursor-pointer">Contact</li>
+            </a>
+        </ul>
+    </div>
+    <div class="right mt-3  w-1/4 flex justify-end ">
+        <a href="Resume_mayank(1).pdf" download>
+          <button type="button" class="text-red-700 hover:text-white border border-red-700 hover:bg-red-800 focus:ring-4 focus:outline-none focus:ring-red-300 font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:border-red-500 dark:text-red-400 dark:hover:text-white dark:hover:bg-red-600 dark:focus:ring-red-900 transition ease-out duration-500">Download CV</button>
+        </a>
+    </div>
+</div>
+<div class="container2">
+    <section class="text-gray-600 body-font">
+        <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+          <div class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
+            <h1 class="title-font text-lg mb-4 font-medium text-white capitalize greet">hey there 👋 i am</h1>
+              <p class=" lg:inline-block text-transparent bg-clip-text bg-gradient-to-r from-orange-600 via-white to-green-600 text-4xl font-bold name hover:text-white cursor-pointer">Mayank Bhardwaj</p>
+              <br/>
+              <p class="mb-8 leading-relaxed text-white">Hello there! I'm a passionate frontend developer with a innovative soul deeply linked to the beauty of nature.</p>
+            <div class="flex justify-center text-lg font-bold text-white">
+                Let's Connect 
+                <i class="fa-solid fa-chevron-right connect fa-lg "></i>
+                <a href="https://www.linkedin.com/in/mayank-bhardwaj-757b30253/" target="main"><i class="fa-brands fa-linkedin linkedin"></i></a>
+                
+                <a href="https://instagram.com/mayan_k.bhardwa_j?igshid=MzRlODBiNWFlZA==" target="main"> <i class="fa-brands fa-instagram insta"></i></a>
+                
+                <a href="https://github.com/mayankj1428" target="main">
+                  <i class="fa-brands fa-github ml-4"></i>
+                </a>
+                
+            </div>
+          </div>
+          <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+            <img class="object-cover object-center rounded-full profile shadow-2xl shadow-gray-800 hover:shadow-none hover: border-4 hover:border-cyan-300" alt="hero" src="mineprofile.jpg">
+          </div>
+        </div>
+      </section>
+</div>
+</div>
+
+<!-- container 3 from here -->
+
+    <div class="container3 mt-32" id="about">
+        <section class="text-gray-600 body-font">
+            <div class="container px-5 py-24 mx-auto flex flex-wrap">
+              <div class="flex flex-wrap -mx-4 mt-auto mb-auto lg:w-1/2 sm:w-2/3 content-start sm:pr-10">
+                <div class="w-full sm:p-4 px-4 mb-6">
+                  <h1 class="title-font  font-bold text-4xl mb-2 text-gray-900 ">About Me !</h1>
+                  <p class="hidden sm:block font-bold hover:text-red-500 text-xl">I'm Mayank Bhardwaj, a Front-end developer & Photographer</p>
+                  <div class="leading-relaxed mt-4">
+                    "Hello there! I'm a passionate frontend developer with a innovative soul deeply linked to the beauty of nature. As a person who thrives on bringing user interfaces to lifestyles, I focus on crafting seamless and fascinating online reports. When I'm no longer immersed in code, you could discover me chasing the correct shot thru the lens of my camera, shooting the breathtaking essence of the herbal global. Whether I'm translating design ideas into pixel-best web sites or capturing the serenity of a sunrise over the mountains, I discover inspiration in both the digital and herbal realms. Join me on my journey as I combine the art of coding with the artistry of nature images."</div>
+                </div>
+                <div class="flex justify-center text-lg font-bold uppercase pl-2">
+                    Connect With Me
+                    <i class="fa-solid fa-chevron-right connect"></i>
+                    <a href="https://www.linkedin.com/in/mayank-bhardwaj-757b30253/" target="main"><i class="fa-brands fa-linkedin fa-2xl linkedin"></i>
+                    </a>
+                    <a href="https://instagram.com/mayan_k.bhardwa_j?igshid=MzRlODBiNWFlZA==" target="main"> <i class="fa-brands fa-instagram fa-2xl insta"></i></a>
+
+                    <a href="https://github.com/mayankj1428" target="main">
+                      <i class="fa-brands fa-github fa-2xl ml-4"></i>
+                    </a>
+                </div>
+              </div>
+              <div class="lg:w-1/2 sm:w-1/3 w-full rounded-lg overflow-hidden mt-10">
+                <div class="skillper flex justify-between">
+                  <p class="skillitems font-bold text-3xl bg-gray-600 text-transparent bg-clip-text bg-gradient-to-r hover:from-gray-400 hover:via-gray-600 hover:to-blue-800 ">
+                    HTML & CSS
+                  </p>
+                  <p class="font-bold text-3xl ">80%</p>
+                </div> 
+                <div class="outerline w-100 h-4 rounded-lg flex bg-slate-200">
+                  <div class="innerline w-4/5 h-full rounded-lg border-2 bg-red-500 hover:bg-orange-500">
+                  </div>
+                </div>
+
+                <div class="skillper flex justify-between mt-10">
+                  <p class="skillitems font-bold text-3xl bg-gray-600 text-transparent bg-clip-text bg-gradient-to-r  hover:from-gray-400 hover:via-gray-600 hover:to-blue-800 ">
+                    JAVA SCRIPT
+                  </p>
+                  <p class="font-bold text-3xl ">25%</p>
+                </div> 
+                  <div class="outerline w-100 h-4 rounded-lg flex bg-slate-200">
+                  <div class="innerline w-1/4 h-full rounded-lg border-2 bg-red-500 hover:bg-orange-500">
+                  </div>
+                </div> 
+
+                <div class="skillper flex justify-between mt-10">
+                  <p class="skillitems font-bold text-3xl bg-gray-600 text-transparent bg-clip-text bg-gradient-to-r  hover:from-gray-400 hover:via-gray-600 hover:to-blue-800 ">
+                    PYTHON
+                  </p>
+                  <p class="font-bold text-3xl ">50%</p>
+                </div> 
+                  <div class="outerline w-100 h-4 rounded-lg flex bg-slate-200">
+                  <div class="innerline w-1/2 h-full rounded-lg border-2 bg-red-500 hover:bg-orange-500">
+                  </div>
+                </div>
+
+                <div class="skillper flex justify-between mt-10">
+                  <p class="skillitems font-bold text-3xl bg-gray-600 text-transparent bg-clip-text bg-gradient-to-r  hover:from-gray-400 hover:via-gray-600 hover:to-blue-800 ">
+                    C++
+                  </p>
+                  <p class="font-bold text-3xl ">50%</p>
+                </div> 
+                  <div class="outerline w-100 h-4 rounded-lg flex bg-slate-200">
+                  <div class="innerline w-1/2 h-full rounded-lg border-2 bg-red-500 hover:bg-orange-500">
+                  </div>
+                </div>
+              </div>
+              
+            </div>
+          </section>
+    </div>
+
+    <div class="container3 ">
+      <div class="education flex justify-center text-6xl font-bold  text-transparent bg-clip-text bg-gradient-to-r from-indigo-600 to-green-400 hover:from-gray-400 hover:via-gray-600 hover:to-blue-800 cursor-pointer transition ease-out duration-500">Education</div>
+      <section class="text-gray-600 body-font">
+  <div class="container px-5 py-24 mx-auto flex flex-wrap">
+    <div class="flex relative pt-10 pb-20 sm:items-center md:w-2/3 mx-auto bg-slate-100">
+      <div class="h-full w-6 absolute inset-0 flex items-center justify-center">
+        <div class=" line h-full w-1 bg-black pointer-events-none mt-8"></div>
+      </div>
+      <div class="flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-red-400 text-white relative z-10 title-font font-medium text-sm">1</div>
+      <div class="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
+        <div class="flex-shrink-0 w-24 h-24 bg-red-300 text-red-500 rounded-full inline-flex items-center justify-center">
+          <img src="https://www.reshot.com/preview-assets/icons/3TY25DHKL7/school-3TY25DHKL7.svg" alt="" class="w-14">
+        </div>
+        <div class="flex-grow sm:pl-6 mt-6 sm:mt-0">
+          <h2 class="font-bold title-font text-gray-900 mb-1 text-xl text-transparent bg-clip-text bg-gradient-to-bl from-indigo-900 via-indigo-400 to-indigo-900 hover:from-gray-400 hover:via-gray-600 hover:to-blue-800 cursor-pointer uppercase">bhagwan parshuram institute of technology</h2>
+          <p class="leading-relaxed">Btech Electronics and Communication Engineering</p>
+          <p class="leading-relaxed">2021-2025</p>
+        </div>
+      </div>
+    </div>
+    
+    <div class="flex relative pb-20 sm:items-center md:w-2/3 mx-auto bg-slate-100">
+      <div class="h-full w-6 absolute inset-0 flex items-center justify-center">
+        <div class=" line h-full w-1 bg-black pointer-events-none"></div>
+      </div>
+      <div class="flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-red-400 text-white relative z-10 title-font font-medium text-sm">2</div>
+      <div class="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
+        <div class="flex-shrink-0 w-24 h-24 bg-red-300 text-red-500 rounded-full inline-flex items-center justify-center">
+          <img src="https://www.reshot.com/preview-assets/icons/3TY25DHKL7/school-3TY25DHKL7.svg" alt="" class="w-14">
+        </div>
+        <div class="flex-grow sm:pl-6 mt-6 sm:mt-0">
+          <h2 class="font-bold title-font text-gray-900 mb-1 text-xl uppercase text-transparent bg-clip-text bg-gradient-to-bl from-indigo-900 via-indigo-400 to-indigo-900 hover:from-gray-400 hover:via-gray-600 hover:to-blue-800 cursor-pointer">vivekanand school</h2>
+          <p class="leading-relaxed">Higher Secondary</p>
+          <p class="leading-relaxed">July 2019 to June 2021</p>
+        </div>
+      </div>
+    </div>
+    <div class="flex relative pb-20 sm:items-center md:w-2/3 mx-auto bg-slate-100">
+      <div class="h-full w-6 absolute inset-0 flex items-center justify-center">
+        <div class=" line h-full w-1 bg-black pointer-events-none mb-8"></div>
+      </div>
+      <div class="flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-red-400 text-white relative z-10 title-font font-medium text-sm">3</div>
+      <div class="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
+        <div class="flex-shrink-0 w-24 h-24 bg-red-300 text-red-500 rounded-full inline-flex items-center justify-center">
+          <img src="https://www.svgrepo.com/show/450824/education.svg" alt="" class="w-12">
+        </div>
+        <div class="flex-grow sm:pl-6 mt-6 sm:mt-0">
+          <h2 class="font-bold title-font text-gray-900 mb-1 text-xl uppercase text-transparent bg-clip-text bg-gradient-to-bl from-indigo-900 via-indigo-400 to-indigo-900 hover:from-gray-400 hover:via-gray-600 hover:to-blue-800 cursor-pointer">st thomas school</h2>
+          <p class="leading-relaxed">High School</p>
+          <p class="leading-relaxed">April 2007 to April 2019</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+    </div>
+
+
+    <div class="container4" id="contact">
+      <section class="text-gray-600 body-font relative">
+        <div class="container px-5 py-24 mx-auto">
+          <div class="flex flex-col text-center w-full mb-12">
+            <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900 uppercase text-transparent bg-clip-text bg-gradient-to-r from-indigo-600 to-green-400 hover:from-gray-400 hover:via-gray-600 hover:to-blue-800 cursor-pointer transition ease-out duration-500">This is a Contact Form</h1>
+            <p class="lg:w-2/3 mx-auto leading-relaxed text-base">Have any issues? Contact me.</p>
+          </div>
+          <div class="lg:w-1/2 md:w-2/3 mx-auto">
+            <div class="flex flex-wrap -m-2">
+              <div class="p-2 w-1/2">
+                <div class="relative">
+                  <label for="name" class="leading-7 text-sm text-gray-600">Name</label>
+                  <input type="text" id="name" name="name" class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-red-500 focus:bg-white focus:ring-2 focus:ring-red-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+                </div>
+              </div>
+              <div class="p-2 w-1/2">
+                <div class="relative">
+                  <label for="email" class="leading-7 text-sm text-gray-600">Email</label>
+                  <input type="email" id="email" name="email" class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-red-500 focus:bg-white focus:ring-2 focus:ring-red-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+                </div>
+              </div>
+              <div class="p-2 w-full">
+                <div class="relative">
+                  <label for="message" class="leading-7 text-sm text-gray-600">Message</label>
+                  <textarea id="message" name="message" class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-red-500 focus:bg-white focus:ring-2 focus:ring-red-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out">
+                  </textarea>
+                </div>
+              </div>
+              <div class="p-2 w-full mt-10">
+                <button class="flex mx-auto text-white bg-indigo-800 border-0 py-2 px-8 focus:outline-none rounded text-lg hover:bg-gray-600 hover:shadow-2xl transition ease-out duration-300 cursor-pointer">
+                  <p class="text">SEND</p>
+                  <i class="fa-solid fa-circle-chevron-right mt-1 ml-3"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+
+    <div class="container4 flex mb-40">
+
+      <div class="phonenumber border-2 border-gray-300 ml-28 w-1/3 pl-12 pt-6 pb-6">
+        <i class="fa-solid fa-phone navicon mr-2 text-gray-500"></i>
+        <p class="contactnum capitalize inline font-semibold text-gray-500 text-xl">contact number</p> 
+        <br/>
+        <br/>
+        <p class="num text-lg text-transparent bg-clip-text bg-gradient-to-r from-indigo-600 to-green-400 hover:from-gray-400 hover:via-gray-600 hover:to-blue-800 font-semibold">+91 807*******55</p>
+      </div>
+      <div class="email border-2 border-gray-300 w-1/3 pl-12 pt-6 pb-6">
+        <i class="fa-regular fa-envelope mt-1 mr-2 text-gray-500"></i>
+        <p class="contactnum capitalize inline font-semibold text-gray-500 text-xl">email id</p>
+        <br/>
+        <br/> 
+        <p class="mail text-lg text-transparent bg-clip-text bg-gradient-to-r from-indigo-600 to-green-400 hover:from-gray-400 hover:via-gray-600 hover:to-blue-800 font-semibold">name@email.com</p>
+      </div>
+      <div class="addresss  border-2 border-gray-300 w-1/3 mr-24 pl-12 pt-6 pb-6">
+        <i class="fa-solid fa-location-dot mt-1 mr-2 text-gray-500"></i>
+        <p class="contactnum capitalize inline font-semibold text-gray-500 text-xl">address</p> 
+        <br/>
+        <br/>
+        <p class="address text-lg text-transparent bg-clip-text bg-gradient-to-r from-indigo-600 to-green-400 hover:from-gray-400 hover:via-gray-600 hover:to-blue-800 font-semibold capitalize">123 a block new delhi</p>
+      </div>
+
+    </div>
+
+    <div class="bottomcontainer bg-red-500 flex justify-between">
+      <div class="copyright">
+        <p class="copyright text-white pt-10 pb-8 pl-10 font-bold text-lg">© Copyright 2023 Mayank Bhardwaj.</p>
+      </div>
+
+      <div class="connection">
+        <a href="https://www.linkedin.com/in/mayank-bhardwaj-757b30253/" target="main"><i class="fa-brands fa-linkedin linkedin fa-2xl pt-12"></i></a>
+        
+        <a href="https://instagram.com/mayan_k.bhardwa_j?igshid=MzRlODBiNWFlZA==" target="main"><i class="fa-brands fa-instagram fa-2xl insta pt-12 pr-4"></i></a>
+
+        <a href="https://github.com/mayankj1428" target="main">
+          <i class="fa-brands fa-github fa-2xl pr-8 git"></i>
+        </a>
+      </div>
+
+    </div>
+    
+    <script src="portfolio.js"></script>
+</body>
+</html>
